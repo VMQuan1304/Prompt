@@ -1,0 +1,71 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting background color and font styles for hero section */
+.hero-section {
+    background-color: #f4f4f4; /* Neutral background color */
+    padding: 50px 20px; /* Padding around the content */
+    text-align: center; /* Center-align text */
+    position: relative; /* Relative positioning for absolute positioning of the image */
+    }
+
+    /* Styling container to center content */
+    .container {
+        max-width: 800px; /* Limiting content width for better readability */
+        margin: 0 auto; /* Centering container horizontally */
+    }
+
+    /* Styling main heading */
+    .main-heading {
+        font-family: 'Rubik', sans-serif; /* Applying Rubik font */
+        font-size: 2.2rem; /* Font size */
+        color: black; /* Text color */
+        margin-bottom: 20px; /* Spacing below */
+    }
+
+    /* Styling sub heading */
+    .sub-heading {
+        font-size: 24px; /* Smaller font size for sub heading */
+        margin-bottom: 30px; /* Adding some space below the sub heading */
+    }
+
+    /* Styling description paragraph */
+    .description {
+        font-size: 18px; /* Medium font size for description */
+        color: #666; /* Slightly darker text color */
+        margin-bottom: 30px; /* Adding some space below the description */
+    }
+
+    /* Styling call-to-action button */
+    .cta-button {
+        display: inline-block; /* Making button inline */
+        padding: 10px 20px; /* Adding padding to the button */
+        background-color: #007bff; /* Blue button background color */
+        color: #fff; /* White text color */
+        text-decoration: none; /* Removing underline */
+        border-radius: 5px; /* Adding some rounded corners */
+        transition: background-color 0.3s; /* Smooth transition for hover effect */
+        font-size: 20px;
+    }
+
+    /* Styling hover effect for button */
+    .cta-button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+
+/* Image container */
+/* Styling hero image */
+.hero-image {
+    position: absolute; /* Positioning image */
+    top: -25px; /* Adjusting top position */
+    left: 16%; /* Centering horizontally */
+    transform: translateX(-50%); /* Adjusting horizontal position */
+    border-radius: 50%; /* Making image rounded */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Adding soft shadow */
+    width: 200px; /* Adjusting width of the image */
+    height: auto; /* Maintaining aspect ratio */
+}

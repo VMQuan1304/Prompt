@@ -1,0 +1,50 @@
+/* Body background color */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Container for the form */
+.container {
+    background-color: white; /* White background */
+    width: 300px; /* Set width */
+    padding: 20px; /* Add padding */
+    margin: 0 auto; /* Center align */
+    text-align: center; /* Center align text */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Heading style */
+.heading {
+    color: #471869; /* Purple color */
+}
+
+/* Input field style */
+input[type="email"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add padding */
+    margin: 10px 0; /* Add margin */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Input field hover effect */
+input[type="email"]:focus::placeholder {
+    color: #ccc; /* Hide placeholder on hover */
+}
+/* Button style */
+.btn {
+    background-color: #471869; /* Purple color */
+    color: white; /* White text color */
+    padding: 10px 100px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #5f2673; /* Darker purple color on hover */
+}
