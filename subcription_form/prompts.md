@@ -8,3 +8,9 @@ Please follow the steps below:
  * ​​Use the color #471869 for the heading and button, a white background for the form container, and a light body background.
 
 Keep the code as beginner-friendly as possible and document each CSS property with a short code comment to make the code more understandable for non-coders.
+
+## Prompt 2
+What is the simplest way to horizontally center this new featured image?
+
+    <img class="featured-img" src="dog.jpg" alt="Illustration of a happy dog.">
+    <h1 class="heading">BarkerBox - Subscribe and Save!</h1>

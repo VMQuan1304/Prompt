@@ -57,15 +57,11 @@
         background-color: #0056b3; /* Darker blue on hover */
     }
 
-/* Image container */
 /* Styling hero image */
 .hero-image {
-    position: absolute; /* Positioning image */
-    top: -25px; /* Adjusting top position */
-    left: 16%; /* Centering horizontally */
-    transform: translateX(-50%); /* Adjusting horizontal position */
+    display: block; /* Make the image behave like an inline element */
+    margin: 0 auto; /* Center the image horizontally */
     border-radius: 50%; /* Making image rounded */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Adding soft shadow */
     width: 200px; /* Adjusting width of the image */
-    height: auto; /* Maintaining aspect ratio */
 }

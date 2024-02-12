@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIF Gala RSVP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>You're Invited to the GIF Gala: Where Memes Come to Life!</h1>
+        <h2>7/21/23</h2>
+    </header>
+    <main>
+        <section>
+            <h2>About the GIF Gala</h2>
+            <p>The GIF Gala is the ultimate celebration of internet culture, where guests dress as their favorite GIFs or memes and bring them to life. Join us for a night of fun, laughter, and unforgettable moments!</p>
+        </section>
+        <section>
+            <h2>RSVP</h2>
+            <form id="rsvpForm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="attendance">Will you attend?</label>
+                <select id="attendance" name="attendance" required>
+                    <option value="">Select one</option>
+                    <option value="yes">Yes, I will be there!</option>
+                    <option value="no">Sorry, can't make it.</option>
+                </select>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <div id="confirmationMessage"></div>
+        </section>
+    </main>
+</body>
+</html>

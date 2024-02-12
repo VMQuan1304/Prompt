@@ -1,6 +1,10 @@
 /* Body background color */
 body {
     background-color: #f0f0f0; /* Light gray background */
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Container for the form */
@@ -19,8 +23,19 @@ body {
     color: #471869; /* Purple color */
 }
 
-/* Input field style */
-input[type="email"] {
+/* Description style */
+.description {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* Form Styles */
+.registration-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-form input {
     width: 100%; /* Full width */
     padding: 10px; /* Add padding */
     margin: 10px 0; /* Add margin */
@@ -30,21 +45,28 @@ input[type="email"] {
 }
 
 /* Input field hover effect */
-input[type="email"]:focus::placeholder {
+.registration-form input:focus::placeholder {
     color: #ccc; /* Hide placeholder on hover */
 }
-/* Button style */
-.btn {
-    background-color: #471869; /* Purple color */
-    color: white; /* White text color */
-    padding: 10px 100px; /* Add padding */
-    border: none; /* Remove border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Add cursor on hover */
-    transition: background-color 0.3s ease; /* Smooth transition */
+
+.registration-form button {
+    padding: 10px;
+    background-color: #471869; /* Button color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-/* Button hover effect */
-.btn:hover {
-    background-color: #5f2673; /* Darker purple color on hover */
+.registration-form button:hover {
+    background-color: #5f2673; /* Darker button color on hover */
+}
+
+.featured-img {
+    display: inline-block; /* Make the image behave like an inline element */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 50%; /* Making image rounded */
+    border: 3px solid #471869; /* Applying a 3px border with the specified color */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Adding soft shadow */
+    width: 150px; /* Adjusting width of the image */
 }
