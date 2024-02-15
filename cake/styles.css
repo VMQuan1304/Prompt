@@ -1,0 +1,85 @@
+/* Header Styles */
+header {
+    background-color: #ff4081; /* Vibrant pink color */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container Styles */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.reset-btn {
+    background-color: #007bff; /* Vibrant pink color */
+    margin-bottom: 20px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.reset-btn:hover {
+    background-color: #1367c0;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button Styles */
+button {
+    background-color: #ff4081; /* Vibrant pink color */
+    margin-bottom: 20px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ff80ab; /* Lighter pink color */
+}
+
+button:active {
+    background-color: #f50057; /* Darker pink color */
+}
+
+/* Participants List Styles */
+#participants-list ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+/* Winner Display Styles */
+#winner-display {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Winner Name Styles */
+#winner {
+    font-weight: bold;
+    font-size: 1.8em;
+}
